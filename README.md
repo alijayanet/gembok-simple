@@ -230,3 +230,5 @@ A dedicated portal for sales agents/resellers to sell hotspot vouchers.
 1. Go to **Sales Users** menu to create sales accounts.
 2. Go to **Sales Users > Paket** to assign which profiles a sales agent can sell and set their prices.
 3. Topup their deposit balance.
+
+![Image](https://github.com/user-attachments/assets/724e5ac2-626e-4f2d-bd1f-1265b70b544f)
