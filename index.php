@@ -111,7 +111,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['action'] ?? '') === 'publi
 $packages = [];
 try {
     $pdo = getDB();
-    $packages = $pdo->query("SELECT * FROM packages ORDER BY price ASC LIMIT 3")->fetchAll(PDO::FETCH_ASSOC);
+    $packages = $pdo->query("SELECT * FROM packages WHERE name IN ('Paket Silver plus', 'Paket Gold Pro', 'Paket Diamond') ORDER BY price ASC")->fetchAll(PDO::FETCH_ASSOC);
 } catch (Exception $e) {
     // Fail silently
 }
